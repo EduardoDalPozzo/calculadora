@@ -1,5 +1,6 @@
 body {
 	background:#555588;
+	display:inline-block;
 }
 
 h1 {
@@ -48,4 +49,14 @@ background:#f55;
 
 span {
 	border:3px solid #f55;
+}
+
+img {
+	height:5px;
+	width:5px;
+}
+
+img:hover {
+	scale:3000%;
+	transition-duration:5s;
 }
